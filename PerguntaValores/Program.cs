@@ -13,14 +13,14 @@ namespace PerguntaValores
             float pi = 3.1415926f;
 
             Console.WriteLine("What is the height (h) of the cylinder: ");
-            int h = Convert.ToInt32(Console.ReadLine());
+            float h = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("What is the radius (r) of the cylinder: ");
-            int r = Convert.ToInt32(Console.ReadLine());
+            float r = Convert.ToInt32(Console.ReadLine());
 
-            float v = (pi*(r * r)*h);
+            double v = (pi*(r * r)*h);
 
-            float s = 2(pi*r(r + h));
+            double s = 2*(pi*r*(r + h));
 
             Console.WriteLine("V = " + v);
             Console.WriteLine("S = " + s);
