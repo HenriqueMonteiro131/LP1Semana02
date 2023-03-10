@@ -68,6 +68,10 @@ namespace Specials
             float float_max = float.MaxValue + 1;
             Console.WriteLine(float_max);
 
+            float float1 , float2 ;
+            float1 = float2 = 10000.0f;
+            Console.WriteLine(float1 == float2 + 0.0001f);
+
 
         }
     }
