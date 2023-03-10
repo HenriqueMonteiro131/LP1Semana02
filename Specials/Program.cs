@@ -46,6 +46,21 @@ namespace Specials
             decimal dcmini = decimal.MinValue; 
             Console.WriteLine(dcmini);
 
+            double x = double. PositiveInfinity;
+            Console.WriteLine(x);
+
+            double z = double. NegativeInfinity;
+            Console.WriteLine(z);
+
+            float y = float .NaN;
+            Console.WriteLine(y);
+
+            double a = double .NaN;
+            Console.WriteLine(a);
+
+
+            
+
             
         }
     }
