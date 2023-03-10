@@ -58,11 +58,17 @@ namespace Specials
             double a = double .NaN;
             Console.WriteLine(a);
 
-            int Max_short = short.MaxValue;
-            Console.WriteLine(Max_short);
-            Console.WriteLine((short) ( Max_short + 1));
+            int max_short = short.MaxValue;
+            Console.WriteLine(max_short);
+            Console.WriteLine((short) ( max_short + 1));
 
-            
+            double double_max = double.MaxValue + 1;
+            Console.WriteLine(double_max);
+
+            float float_max = float.MaxValue + 1;
+            Console.WriteLine(float_max);
+
+
         }
     }
 }
