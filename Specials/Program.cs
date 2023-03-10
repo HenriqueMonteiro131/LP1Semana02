@@ -58,8 +58,9 @@ namespace Specials
             double a = double .NaN;
             Console.WriteLine(a);
 
-
-            
+            int Max_short = short.MaxValue;
+            Console.WriteLine(Max_short);
+            Console.WriteLine((short) ( Max_short + 1));
 
             
         }
