@@ -26,7 +26,7 @@ namespace PerguntaValores
             double s = 2*(Math.PI*r*(r + h));
 
             Console.WriteLine($"V = {v}");
-            Console.WriteLine($"S = {s}");;
+            Console.WriteLine($"S = {s}");
 
 
         }

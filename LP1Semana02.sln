@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfExample", "IfExample\IfExample.csproj", "{6CD3D551-328C-4421-A314-FDE8AC0672FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTGrandfather", "ChatGPTGrandfather\ChatGPTGrandfather.csproj", "{B315AB11-FCF9-47CE-87FA-FC383C1C9FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{4D558B46-33D7-4CC6-ACEE-1A6B2DDAC7AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CD3D551-328C-4421-A314-FDE8AC0672FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD3D551-328C-4421-A314-FDE8AC0672FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD3D551-328C-4421-A314-FDE8AC0672FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD3D551-328C-4421-A314-FDE8AC0672FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B315AB11-FCF9-47CE-87FA-FC383C1C9FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B315AB11-FCF9-47CE-87FA-FC383C1C9FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B315AB11-FCF9-47CE-87FA-FC383C1C9FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B315AB11-FCF9-47CE-87FA-FC383C1C9FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D558B46-33D7-4CC6-ACEE-1A6B2DDAC7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D558B46-33D7-4CC6-ACEE-1A6B2DDAC7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D558B46-33D7-4CC6-ACEE-1A6B2DDAC7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D558B46-33D7-4CC6-ACEE-1A6B2DDAC7AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
